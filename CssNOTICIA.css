@@ -1,0 +1,328 @@
+body {
+    background-size: 150%; /* Ajusta a imagem de fundo para cobrir a altura total do corpo e ajustar horizontalmente conforme necessário */
+    background-position: center top; /* Centraliza a imagem de fundo verticalmente e alinha ao topo */
+    font-family: Arial, sans-serif;
+    margin-inline: 50px;
+    padding: 0;
+    background-color: #ffffff; /* Cor de fundo em branco */
+    margin: 0 auto; /* Centraliza a página horizontalmente */
+    padding: 0 20px; /* Adiciona um espaço de preenchimento nas laterais */
+}
+/* Adicione seus estilos CSS aqui */
+
+    
+    .logo-menu {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* Alinha os itens à esquerda */
+    }
+    
+    .logo-menu img {
+        width: 120px; /* Ajuste a largura conforme necessário */
+        height: auto; /* Para manter a proporção */
+        margin-top: 17px; /* Move a imagem 10 pixels para baixo */
+        margin-right: 0px; /* Move a imagem 10 pixels para a direita */
+    }
+    
+    .logo-menu p {
+        margin: 0; /* Remova a margem do parágrafo para evitar espaçamento extra */
+        font-weight: bold; /* Deixa o texto em negrito */
+        font-size: 15px; /* Ajusta o tamanho da fonte conforme necessário */
+        color: #fff; /* Cor do texto */
+        margin-left: 10px; /* Adiciona um espaço entre a logo e o texto */
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+.conteudo-wrapper {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.conteudo {
+    width: 35%; /* Reduzindo a largura para 45% */
+}
+
+.conteudo {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor preta com menos transparência */
+    padding: 8px;
+    border-radius: 30px; /* Bordas arredondadas */
+    color: #fff; /* Cor do texto */
+    margin-top: 50px; /* Espaçamento superior */
+    max-width: 600px; /* Largura máxima */
+    margin: 50px 20px
+    
+}
+
+.texto {
+    display: inline-block;
+    padding: 44px;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor preta com menos transparência */
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 200px; /* Largura ajustável de acordo com o conteúdo */
+    max-width: 20%; /* Largura máxima para evitar que ocupe toda a largura da tela */
+    height: 170PX; /* Altura ajustável de acordo com o conteúdo */
+    color: #fff; /* Cor do texto */
+    margin-right: 80px; /* Espaçamento à direita para posicionar ao lado do formulário */
+    margin-top:150px;
+
+}
+
+
+.conteudo h2 {
+    margin-top: 0; /* Remove o espaço acima do título */
+    color: #fff; /* Cor do texto */
+    
+}
+.conteudo input[type="Whatsapp"] {
+    width: calc(100% - 22px); /* 100% menos a largura das bordas */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente */
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.conteudo input[type="text"],
+.conteudo input[type="email"],
+.conteudo textarea {
+    width: calc(100% - 22px); /* 100% menos a largura das bordas */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente */
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.conteudo textarea {
+    height: 80px;
+}
+
+.conteudo input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.conteudo input[type="submit"]:hover {
+    background-color: #555;
+}
+
+header {
+    height: 20px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor preta com menos transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para efeito 3D */
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header p {
+    font-family: 'Roboto Slab', serif; /* Escolha a fonte Roboto Slab */
+    font-weight: bold; /* Deixa o texto mais grosso */
+    font-size: 18px; /* Tamanho da fonte */
+    
+}
+
+.conteudo input[type="text"],
+.conteudo input[type="email"],
+.conteudo textarea {
+    width: calc(100% - 22px); /* 100% menos a largura das bordas */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; /* Remove a borda padrão */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente */
+    display: block;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing:  2px solid #00f;
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 10 10 10px rgba(34, 34, 34, 0.5); /* Sombra para efeito 3D */
+}
+
+nav img {
+    width: 50px; /* Ajuste a largura conforme necessário */
+    height: auto; /* Para manter a proporção */
+    margin-left: auto; /* Empurra a imagem para o lado direito */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 5px;
+    border-radius: 9px;
+
+}
+nav ul li a:hover {
+    border: 1.5px solid blue; /* Adiciona uma borda de 2px sólida azul */
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+    
+}
+
+
+/* Ajuste para os itens do menu */
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li:nth-child(2) {
+    margin-left: auto; /* Move o segundo item para a direita, alinhando o restante à esquerda */
+}
+
+
+/* CSS para o dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.separador {
+    width: 100%;
+    height: 3px;
+    background-color: #181a9e; /* Cor da linha */
+    margin-top: 159px; /* Espaçamento acima da linha */
+    margin-bottom: 44px; /* Espaçamento abaixo da linha */
+}
+.espaco {
+    height: 500px; /* Aumenta a altura do espaço entre as seções */
+}
+
+.noticia {
+    width: 90%; /* Ajuste a largura conforme necessário */
+    height: auto; /* Define a altura automaticamente para exibir todo o conteúdo */
+    /* Outros estilos */
+    flex: 0 0 calc(90% - 10px); /* Ajusta a largura de cada notícia para 90% com margens entre elas */
+    margin-right: 5px; /* Adiciona espaço entre as notícias */
+    box-sizing: border-box; /* Inclui o padding no cálculo da largura */
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo igual ao formulário */
+    left: 50%;
+    color: #fff; /* Cor do texto */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin: 10px;
+    margin-top: 11%;
+    margin-bottom: 40px; /* Espaçamento inferior */
+    border: 15px solid rgb(0, 0, 0); /* Adiciona uma borda azul */
+    border: 1.5px solid rgb(12, 12, 184); /* Adiciona uma borda de 2px sólida azul */
+    border: image slice 1px;; /* Define a fatia da imagem de borda */
+    max-height: none; /* Remove a altura máxima */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adiciona reticências (...) ao final do texto se ele for cortado */
+    line-height: 1.5em; /* Define a altura de cada linha */
+    position:sticky;
+}
+.noticia h3{
+    text-align: center; /* Centraliza o título */
+    
+}
+.noticia h4{
+    text-align: justify; /* Centraliza o título */
+    
+}
+.noticia img {
+    width: 100%; /* Define a largura da imagem como 30% da largura da caixa */
+    height: auto; /* Permite que a altura seja ajustada automaticamente para manter a proporção da imagem */
+    border-radius: 3px; /* Adiciona bordas arredondadas à imagem */
+}
+
+.grupo-noticias {
+    display: flex;
+    flex-wrap: wrap; /* Permite que as notícias dentro do grupo quebrem para a próxima linha */
+    margin-bottom: 20px; /* Adiciona espaço entre os grupos de notícias */
+}
+
+#noticias .conteudo-centralizado h2 {
+    text-align: center; /* Centraliza o texto */
+    color: #fff; /* Cor do texto */
+    padding: 10px 10px; /* Adiciona espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 2px solid transparent; /* Define uma borda transparente */
+    border-image: radial-gradient(circle, rgb(8, 56, 216), transparent); /* Cria um efeito de raios */
+    border-image-slice: 1; /* Define a fatia da imagem de borda */
+}
+
+
+    .conteudo-centralizado{
+        background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo igual ao formulário */
+        text-align: center;
+        text-align: center; /* Centraliza o texto */
+        color: #fff; /* Cor do texto igual aos botões de navegação */
+        border-radius: 5px; /* Bordas arredondadas igual aos botões de navegação */
+        font-weight: bold; /* Deixa o texto em negrito */
+        font-size: 20px; /* Tamanho da fonte igual aos botões de navegação */
+        font-family: Arial, sans-serif; /* Fonte igual aos botões de navegação */
+    }
+
+footer {
+    margin-top: 100px; /* Adiciona uma margem superior para o rodapé */
+}
+
